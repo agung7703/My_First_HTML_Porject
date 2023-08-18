@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="Author" content="Mr. A" />
+    <meta name="Description" content="This my First Project" />
+    <title>Little Taco Shop</title>
+    <link rel="icon" href="img/p1.png" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Contact Us</h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="/index.html">Home</a>
+          </li>
+          <li>
+            <a href="/index.html#about">About LTS</a>
+          </li>
+          <li>
+            <a href="/index.html#ourMenu">Our Menu</a>
+          </li>
+          <li>
+            <a href="/hours.html">Store Hours</a>
+          </li>
+        </ul>
+      </nav>
+      <section>
+        <figure>
+          <img
+            src="img/tacos_close_up_400x260.png"
+            alt="LTSt"
+            title="Little Taco Shop Tacos"
+          />
+          <figcaption>Little Taco Shop Tacos</figcaption>
+        </figure>
+      </section>
+    </header>
+
+    <main>
+      <article>
+        <h2>Our Contact Form</h2>
+        <form action="http://httpbin.org/get" method="get">
+          <fieldset>
+            <legend>Send Us A Message</legend>
+            <p>
+              <label for="name">Name : </label>
+              <input
+                type="text"
+                name="Name"
+                id="Name"
+                placeholder="Name"
+                autocomplete="on"
+                required
+                autofocus
+              />
+            </p>
+            <p>
+              <label for="email">Email : </label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Email"
+                required
+              />
+            </p>
+            <p>
+              <label for="message">Message : </label>
+              <br />
+              <textarea
+                name="message"
+                id="message"
+                cols="30"
+                rows="10"
+                placeholder="Type your message"
+              ></textarea>
+            </p>
+            <button
+              type="submit"
+              formaction="https://httpbin.org/post"
+              formmethod="post"
+            >
+              Send
+            </button>
+            <button type="reset">Reset</button>
+          </fieldset>
+        </form>
+      </article>
+
+      <article>
+        <h2>Our Location</h2>
+        <address>
+          555 Taco Templation lane. Suite T <br />
+          Kansas Citiy, MO 555555-5555
+        </address>
+        <p>Phone : <a href="+12345678910">+12345678910</a></p>
+      </article>
+
+      <p><a href="#">Back To Top</a></p>
+    </main>
+
+    <hr />
+
+    <footer>
+      <p>Copyright &copy;Mr.A</p>
+    </footer>
+  </body>
+</html>
