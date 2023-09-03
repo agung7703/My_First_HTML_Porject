@@ -4,4 +4,6 @@ Hello.... I'm Agung Maulana Saputra, today I did my first HTML and CSS project. 
 with the theme of The Little Taco Shop.
 
 Please enjoy ;)
+Don't forget to follow and give stars to see project updates from me
+
 August 8, 2023
